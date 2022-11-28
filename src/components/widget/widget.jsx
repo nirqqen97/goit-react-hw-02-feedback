@@ -37,7 +37,6 @@ export class Widget extends React.Component {
     render() {
         return(
           <Container>
-              <Title>Please leave feedback</Title>
                     <FeedbackOptions handleIncrement = {this.handleIncrement}
                                      handleNeutral= {this.handleNeutral}
                                      handleDicrement = {this.handleDicrement}/>
